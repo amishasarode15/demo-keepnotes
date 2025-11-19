@@ -13,4 +13,8 @@ public class Test {
         return "The application is running successfully!";
     }
 
+    @GetMapping("/greeting")
+    public String greeting() {
+        return "Hello from Keepnotes Application!";
+    }
 }
